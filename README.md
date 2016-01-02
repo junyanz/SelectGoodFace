@@ -52,5 +52,5 @@ In ACM Transactions on Graphics (SIGGRAPH Asia 2014). December 2014, vol. 33, No
       * CONF.alignErrorThres = 8;   % ignore poor alignment (e.g. mean pixel error > 8)
 * Output: our program outputs ranking results for both attractiveness and seriousness in the following folder: CONF.dataFold/[CONF.tracker '\_result']
 
-## Credits
+## Credit
 Part of the face alignment code is based on the work by Fei Yang.

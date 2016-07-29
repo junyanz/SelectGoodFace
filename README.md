@@ -34,8 +34,8 @@ In ACM Transactions on Graphics (SIGGRAPH Asia 2014). December 2014, vol. 33, No
 ## Notes on face trackers
 * We used IntraFace in our paper. However, IntraFace is temporally suspended according to the authors' website. I will update my code once the new version of IntraFace is released. CLM-WILD tracker is publicly available now.
 * You can also use other face tracker as you like. Please modify the Line 40~44 in "SelectGoodFace.m" and write your own wrapper to adapt other face trackers. For each image, my code needs:
-  - Nine facial points:  [9x2 double] (see "points.png")
-  - 3D pose (Pitch, Yaw, Roll): [3x1 double] (set the pose as [ ] if your face tracker doesn't provide pose information)
+  - Nine facial points:  \[9x2 double\] (see "points.png")
+  - 3D pose (Pitch, Yaw, Roll): \[3x1 double\] (set the pose as \[ \] if your face tracker doesn't provide pose information)
   - Confidence score: set the confidence score as 1 if your face tracker doesn't provide the confidence score.
 * For "the Gallagher Collection Person Dataset", I provided the precomputed facial points ("data/demo/IntraFace_cache/detection.mat") detected by IntraFace so that you can reproduce the first row of Figure 17 in our paper.
 

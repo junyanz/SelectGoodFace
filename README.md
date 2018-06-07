@@ -1,7 +1,6 @@
 # SelectGoodFace
-Project webpage: http://www.eecs.berkeley.edu/~junyanz/projects/mirrormirror/  
-Contact: Jun-Yan Zhu (junyanz at eecs dot berkeley dot edu)
-
+#### [[Project](http://efrosprojects.eecs.berkeley.edu/mirrormirror/)] [[Paper](http://efrosprojects.eecs.berkeley.edu/mirrormirror/mirrormirror.pdf)]
+Contact: Jun-Yan Zhu (junyanz at mit dot edu)
 
 ## Overview
 This program can select attractive/serious portraits from a personal photo collection. Given the photo collection of the *same* person as input, our program computes the attractiveness/seriousness scores on all the faces. The scores are predicted by the SVM models pre-trained on the face data that we collected for our paper.
@@ -52,5 +51,5 @@ In ACM Transactions on Graphics (SIGGRAPH Asia 2014). December 2014, vol. 33, No
       * CONF.alignErrorThres = 8;   % ignore poor alignment (e.g. mean pixel error > 8)
 * Output: our program outputs ranking results for both attractiveness and seriousness in the following folder: CONF.dataFold/[CONF.tracker '\_result']
 
-## Credit
+## Acknowledgement
 Part of the face alignment code is based on the work by Fei Yang.

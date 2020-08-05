@@ -1,6 +1,6 @@
 # SelectGoodFace
 #### [[Project](http://efrosprojects.eecs.berkeley.edu/mirrormirror/)] [[Paper](http://efrosprojects.eecs.berkeley.edu/mirrormirror/mirrormirror.pdf)]
-Contact: Jun-Yan Zhu (junyanz at mit dot edu)
+Contact: Jun-Yan Zhu (junyanz at cs dot cmu dot edu)
 
 ## Overview
 This program can select attractive/serious portraits from a personal photo collection. Given the photo collection of the *same* person as input, our program computes the attractiveness/seriousness scores on all the faces. The scores are predicted by the SVM models pre-trained on the face data that we collected for our paper.
@@ -9,10 +9,23 @@ The program assumes only one person in each input image. Please use other softwa
 
 The code can only be used for non-commercial purposes. Please cite the following work if you use our code and data for your research:
 
-Mirror Mirror: Crowdsourcing Better Portraits  
-Jun-Yan Zhu, Aseem Agarwala, Alexei A. Efros, Eli Shechtman and Jue Wang  
-In ACM Transactions on Graphics (SIGGRAPH Asia 2014). December 2014, vol. 33, No. 6.
+[Mirror Mirror: Crowdsourcing Better Portraits](http://efrosprojects.eecs.berkeley.edu/mirrormirror/)  
+[Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/), [Aseem Agarwala](http://www.agarwala.org/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Jue Wang](http://www.juew.org/)  
+In ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2014)  
 
+[Project Page](http://efrosprojects.eecs.berkeley.edu/mirrormirror/)
+
+Please cite our paper if you use our code for your research.
+```
+@article{zhu2014mirror,
+ author = {Jun-Yan Zhu and Aseem Agarwala and Alexei A Efros and Eli Shechtman and Jue Wang},
+ title = {Mirror Mirror: Crowdsourcing Better Portraits},
+ journal = {ACM Transactions on Graphics (SIGGRAPH Asia 2014)},
+ volume = {33},
+ number = {6},
+ year = {2014},
+}
+```
 
 ## Installation
 * Download and unzip the code.
